@@ -1,0 +1,13 @@
+<html> 
+<body>
+      <h1> JavaScript Script Methods  </h1>
+      
+      <p> The Search() method returns the position of word from string
+ </p>
+      <p id="demo"></p>
+      <script>
+      let str = "please locate where 'aron' occurs!";
+      document.getElementById("demo").innerHTML = str.search("aron");
+       </script>
+  </body>
+ </html>
